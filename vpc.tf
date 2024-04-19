@@ -1,7 +1,7 @@
 locals {
-  private_subnets = [for k, v in local.azs : cidrsubnet(var.vpc_cidr, 3, k + 3)]
-  public_subnets  = [for k, v in local.azs : cidrsubnet(var.vpc_cidr, 3, k)]
-  azs             = slice(data.aws_availability_zones.available.names, 0, 3)
+  private_subnets = [for k, v in local.azs : cidrsubnet(var.vpc_cidr, 1, k + 3)]
+  public_subnets  = [for k, v in local.azs : cidrsubnet(var.vpc_cidr, 1, k)]
+  azs             = slice(data.aws_availability_zones.available.names, 0, 2)
 }
 
 data "aws_availability_zones" "available" {
