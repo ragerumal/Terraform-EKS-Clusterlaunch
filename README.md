@@ -19,7 +19,7 @@ Launching an Amazon Elastic Kubernetes Service (EKS) cluster using Terraform and
 # Step 2: Install Terraform 
 https://developer.hashicorp.com/terraform/install
 
-#Step 3: Install AWS CLI and perform "aws configure" to link your aws account on your machine running below steps
+# Step 3: Install AWS CLI and perform "aws configure" to link your aws account on your machine running below steps
 https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html
 <img width="426" alt="image" src="https://github.com/ragerumal/Terraform-EKS-Clusterlaunch/assets/126337647/89decbe3-f964-4b82-9d78-ddc069c02dac">
 
