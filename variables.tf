@@ -4,6 +4,7 @@ variable "cluster_name" {
     public_path = string
     content_version = number
   })
+default = ["eks-demo-terraform-rag"]
 }
 
 variable "cluster_version" {
@@ -11,6 +12,7 @@ variable "cluster_version" {
     public_path = string
     content_version = number
   })
+default = ["1.28"]
 }
 
 variable "ami_release_version" {
@@ -18,4 +20,6 @@ variable "ami_release_version" {
     public_path = string
     content_version = number
   })
+default = ["1.28"]
+
 }
