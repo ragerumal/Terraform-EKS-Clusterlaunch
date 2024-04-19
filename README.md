@@ -1,6 +1,7 @@
 # Terrform EKS Cluster launch Handson.
 
-<img width="488" alt="image" src="https://github.com/ragerumal/Terraform-EKS-Clusterlaunch/assets/126337647/b6f0c119-f6cd-4451-84ec-766a986f9531">
+<img width="694" alt="image" src="https://github.com/ragerumal/Terraform-EKS-Clusterlaunch/assets/126337647/b7cb82fd-3997-49ae-b16e-7a8ffb0d48d3">
+
 
 #Reference:https://www.eksworkshop.com/docs/introduction/setup/your-account/using-terraform 
 
@@ -40,14 +41,22 @@ C:\Git\Terraform-EKS-Clusterlaunch>terraform apply -auto-approve
 Note: this take around 20-25 minutes 
 
 <img width="940" alt="image" src="https://github.com/ragerumal/Terraform-EKS-Clusterlaunch/assets/126337647/1249a3a7-797f-487e-95e1-9b814dad1c52">
+<img width="952" alt="image" src="https://github.com/ragerumal/Terraform-EKS-Clusterlaunch/assets/126337647/4b7a5108-6da6-463d-ae24-d2456f83b912">
+
+#Note: After resource creation, below terraform.tfstate file is created to keep tab on resourses created. Since this needed for to check for resource Drift or needed for terraform Destroy command
+
+<img width="536" alt="image" src="https://github.com/ragerumal/Terraform-EKS-Clusterlaunch/assets/126337647/78937d60-1546-401b-917f-e4dd00fb4c8d">
+
 
 # Step 7 : Login to AWS console and check for EKS cluster creation status  or check in AWS CLI using "eksctl get clusters"
 
-<img width="931" alt="image" src="https://github.com/ragerumal/Terraform-EKS-Clusterlaunch/assets/126337647/7276eb52-99aa-4df7-8bea-abb267e78cdb">
+<img width="918" alt="image" src="https://github.com/ragerumal/Terraform-EKS-Clusterlaunch/assets/126337647/00369672-866f-4570-95e8-89f0bb4b37ef">
+
 
 How to Install EKSCTL : https://eksctl.io/installation/
 
 <img width="452" alt="image" src="https://github.com/ragerumal/Terraform-EKS-Clusterlaunch/assets/126337647/9d0303c9-3270-4686-a58e-2ed8682af9d1">
+
 
 
 # Step 8: Now Clean up the resources by using "Terraform Destroy"
@@ -55,5 +64,9 @@ How to Install EKSCTL : https://eksctl.io/installation/
 C:\Git\Terraform-EKS-Clusterlaunch>terraform destroy
 
 
+<img width="643" alt="image" src="https://github.com/ragerumal/Terraform-EKS-Clusterlaunch/assets/126337647/4642403a-e564-4291-9cb9-13d4cf574025">
 
+<img width="907" alt="image" src="https://github.com/ragerumal/Terraform-EKS-Clusterlaunch/assets/126337647/60a2f754-f762-4bf9-8bbb-e1a5d8106f28">
+
+<img width="745" alt="image" src="https://github.com/ragerumal/Terraform-EKS-Clusterlaunch/assets/126337647/d3012605-aab0-42d8-b44d-d18416322006">
 
