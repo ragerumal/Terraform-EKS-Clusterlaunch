@@ -57,9 +57,17 @@ How to Install EKSCTL : https://eksctl.io/installation/
 
 <img width="452" alt="image" src="https://github.com/ragerumal/Terraform-EKS-Clusterlaunch/assets/126337647/9d0303c9-3270-4686-a58e-2ed8682af9d1">
 
+# Step 8 : Configuring kubectl & Verifying the Cluster:
+Once the EKS cluster is created, configure kubectl to communicate with it.
 
+aws eks --region your_aws_region update-kubeconfig --name my-cluster
 
-# Step 8: Now Clean up the resources by using "Terraform Destroy"
+Check the status of your EKS cluster using kubectl. You should see information about the deployed services and nodes in your cluster.
+
+kubectl get svc
+kubectl get nodes
+
+# Step 9: Now Clean up the resources by using "Terraform Destroy"
 
 C:\Git\Terraform-EKS-Clusterlaunch>terraform destroy
 
@@ -69,4 +77,8 @@ C:\Git\Terraform-EKS-Clusterlaunch>terraform destroy
 <img width="907" alt="image" src="https://github.com/ragerumal/Terraform-EKS-Clusterlaunch/assets/126337647/60a2f754-f762-4bf9-8bbb-e1a5d8106f28">
 
 <img width="745" alt="image" src="https://github.com/ragerumal/Terraform-EKS-Clusterlaunch/assets/126337647/d3012605-aab0-42d8-b44d-d18416322006">
+
+
+# Conclusion:
+Combining Terraform and AWS CLI provides a robust and efficient way to provision and manage EKS clusters on AWS. This approach ensures consistency, repeatability, and scalability in deploying Kubernetes infrastructure, making it easier to manage and maintain complex containerized applications.
 
