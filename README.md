@@ -1,6 +1,7 @@
 # Terrform EKS Cluster launch Handson.
 
-<img width="644" alt="image" src="https://github.com/ragerumal/Terraform-EKS-Clusterlaunch/assets/126337647/4e7f4e4e-0997-4098-8f32-bdd2404825eb">
+<img width="542" alt="image" src="https://github.com/ragerumal/Terraform-EKS-Clusterlaunch/assets/126337647/58755f82-726a-4503-a370-0f02ca2ade11">
+
 
 
 #Reference:https://www.eksworkshop.com/docs/introduction/setup/your-account/using-terraform 
