@@ -1,6 +1,7 @@
 # Terrform EKS Cluster launch Handson.
 
-<img width="611" alt="image" src="https://github.com/ragerumal/Terraform-EKS-Clusterlaunch/assets/126337647/50085c61-8525-4fc3-9670-ed4f1a8516cc">
+<img width="563" alt="image" src="https://github.com/ragerumal/Terraform-EKS-Clusterlaunch/assets/126337647/83624d31-30a0-46c9-9ce0-83a241d6493b">
+
 
 Launching an Amazon Elastic Kubernetes Service (EKS) cluster using Terraform and AWS CLI is a streamlined process that combines the power of infrastructure as code (IaC) with the flexibility of command-line tools. This method allows for repeatable and consistent deployments of Kubernetes clusters on AWS infrastructure.
 
