@@ -3,9 +3,6 @@
 <img width="542" alt="image" src="https://github.com/ragerumal/Terraform-EKS-Clusterlaunch/assets/126337647/58755f82-726a-4503-a370-0f02ca2ade11">
 
 
-
-#Reference:https://www.eksworkshop.com/docs/introduction/setup/your-account/using-terraform 
-
 Launching an Amazon Elastic Kubernetes Service (EKS) cluster using Terraform and AWS CLI is a streamlined process that combines the power of infrastructure as code (IaC) with the flexibility of command-line tools. This method allows for repeatable and consistent deployments of Kubernetes clusters on AWS infrastructure.
 
 ## Prerequisites:
@@ -15,6 +12,7 @@ Launching an Amazon Elastic Kubernetes Service (EKS) cluster using Terraform and
 4. **GITHUB repo** : Setup with all *.tf files required.
 
 # Step 1: Perform Git clone repo
+git clone https://github.com/ragerumal/Terraform-EKS-Clusterlaunch
 <img width="615" alt="image" src="https://github.com/ragerumal/Terraform-EKS-Clusterlaunch/assets/126337647/2e25f055-83db-4056-b878-57b30168ab44">
 
 # Step 2: Install Terraform 
@@ -83,3 +81,7 @@ C:\Git\Terraform-EKS-Clusterlaunch>terraform destroy
 # Conclusion:
 Combining Terraform and AWS CLI provides a robust and efficient way to provision and manage EKS clusters on AWS. This approach ensures consistency, repeatability, and scalability in deploying Kubernetes infrastructure, making it easier to manage and maintain complex containerized applications.
 
+
+
+# Reference:
+https://www.eksworkshop.com/docs/introduction/setup/your-account/using-terraform 
